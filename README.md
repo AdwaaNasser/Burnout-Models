@@ -2,6 +2,7 @@
 
 - `Bayyinah_Burnout_Data_Preparation.ipynb`: fixes impossible values, removes leakage columns, and creates the train/test split.
 - `Bayyinah_Burnout_Regression.ipynb`: trains and compares the regression models that predict `burnout_score`.
+- `Bayyinah_Burnout_Classification.ipynb`: trains and compares the classification models that predict `burnout_level`.
 
 ---
 
@@ -20,5 +21,3 @@ The processed data used to train the models:
 - `X_train.csv`, `X_test.csv`: the features.
 - `y_*_reg.csv`: regression target (`burnout_score`).
 - `y_*_clf.csv`: classification target (`burnout_level`).
-- `preprocessor_full.pkl`, `preprocessor_hr.pkl`: the preprocessing steps (filling missing values, scaling and encoding).
-- `feature_lists.json`: the FULL and HR feature lists.
