@@ -2,7 +2,7 @@
 
 - `Bayyinah_Burnout_Data_Preparation.ipynb`: fixes impossible values, removes leakage columns, and creates the train/test split.
 - `Bayyinah_Burnout_Regression.ipynb`: trains and compares the regression models that predict `burnout_score`.
-- `Bayyinah_Burnout_Classification.ipynb`: trains and compares the classification models that predict `burnout_level`.
+- `Classification Model.ipynb`: trains and compares the classification models that predict `burnout_level`.
 
 ---
 
